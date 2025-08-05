@@ -26,7 +26,6 @@ const Footer = () => {
               <li><a href="#content" className="text-primary-foreground/80 hover:text-heritage-gold transition-colors">Historic Overview</a></li>
               <li><a href="#structures" className="text-primary-foreground/80 hover:text-heritage-gold transition-colors">Iconic Structures</a></li>
               <li><a href="#neighborhoods" className="text-primary-foreground/80 hover:text-heritage-gold transition-colors">Neighborhoods</a></li>
-              <li><a href="#visit" className="text-primary-foreground/80 hover:text-heritage-gold transition-colors">Plan Your Visit</a></li>
             </ul>
           </div>
 
