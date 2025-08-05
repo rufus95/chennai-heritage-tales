@@ -8,8 +8,7 @@ const Navigation = () => {
   const navItems = [
     { label: "Heritage", href: "#content" },
     { label: "Structures", href: "#structures" },
-    { label: "Neighborhoods", href: "#neighborhoods" },
-    { label: "Visit", href: "#visit" }
+    { label: "Neighborhoods", href: "#neighborhoods" }
   ];
 
   const scrollToSection = (href: string) => {
