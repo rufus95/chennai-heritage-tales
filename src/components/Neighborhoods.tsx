@@ -178,12 +178,9 @@ const Neighborhoods = () => {
                   <Card className="bg-gradient-warm text-primary-foreground">
                     <CardContent className="p-6">
                       <h4 className="text-lg font-semibold mb-3">Best Time to Visit</h4>
-                      <p className="text-sm mb-4 opacity-90">
+                      <p className="text-sm opacity-90">
                         Early morning (6-9 AM) or evening (4-7 PM) for comfortable weather and golden light photography.
                       </p>
-                      <Button variant="outline" size="sm" className="bg-white/20 text-white border-white/30 hover:bg-white/30">
-                        Plan Your Route
-                      </Button>
                     </CardContent>
                   </Card>
                 </div>
