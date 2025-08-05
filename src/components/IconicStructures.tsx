@@ -100,12 +100,6 @@ const IconicStructures = () => {
           ))}
         </div>
 
-        <div className="text-center mt-12">
-          <Button variant="heritage" size="lg">
-            <Calendar className="w-5 h-5 mr-2" />
-            Plan Your Visit
-          </Button>
-        </div>
       </div>
     </section>
   );
