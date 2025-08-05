@@ -58,6 +58,12 @@ const Footer = () => {
                 <span className="text-primary-foreground/80">Tourism Helpline</span>
               </div>
             </div>
+            <button
+              onClick={() => window.open('https://www.google.com/flights?f=0&tfs=CBwQAhooEgoyMDI1LTA4LTA1agcIARIDTUFBcgcIARIDTUFBGAFCAQFIAQ', '_blank')}
+              className="mt-4 bg-heritage-gold text-primary px-4 py-2 rounded-md hover:bg-heritage-gold/90 transition-colors font-medium"
+            >
+              Plan Your Visit
+            </button>
           </div>
         </div>
 
