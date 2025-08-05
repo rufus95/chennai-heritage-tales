@@ -44,7 +44,7 @@ const Navigation = () => {
             <Button 
               variant="heritage" 
               size="sm"
-              onClick={() => window.open('https://www.google.com/flights', '_blank')}
+              onClick={() => window.open('https://www.google.com/flights?f=0&tfs=CBwQAhooEgoyMDI1LTA4LTA1agcIARIDTUFBcgcIARIDTUFBGAFCAQFIAQ', '_blank')}
             >
               Plan Your Trip
             </Button>
@@ -76,7 +76,7 @@ const Navigation = () => {
                 variant="heritage" 
                 size="sm" 
                 className="w-fit"
-                onClick={() => window.open('https://www.google.com/flights', '_blank')}
+                onClick={() => window.open('https://www.google.com/flights?f=0&tfs=CBwQAhooEgoyMDI1LTA4LTA1agcIARIDTUFBcgcIARIDTUFBGAFCAQFIAQ', '_blank')}
               >
                 Plan Your Trip
               </Button>
