@@ -41,7 +41,11 @@ const Navigation = () => {
                 {item.label}
               </button>
             ))}
-            <Button variant="heritage" size="sm">
+            <Button 
+              variant="heritage" 
+              size="sm"
+              onClick={() => window.open('https://www.google.com/flights', '_blank')}
+            >
               Plan Your Trip
             </Button>
           </div>
@@ -68,7 +72,12 @@ const Navigation = () => {
                   {item.label}
                 </button>
               ))}
-              <Button variant="heritage" size="sm" className="w-fit">
+              <Button 
+                variant="heritage" 
+                size="sm" 
+                className="w-fit"
+                onClick={() => window.open('https://www.google.com/flights', '_blank')}
+              >
                 Plan Your Trip
               </Button>
             </div>
