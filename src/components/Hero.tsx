@@ -42,6 +42,7 @@ const Hero = () => {
             variant="outline" 
             size="lg"
             className="bg-white/10 text-white border-white/30 hover:bg-white/20"
+            onClick={() => document.getElementById('neighborhoods')?.scrollIntoView({ behavior: 'smooth' })}
           >
             Discover Neighborhoods
           </Button>
