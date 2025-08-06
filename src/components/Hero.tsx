@@ -1,6 +1,6 @@
 import { Button } from "@/components/ui/button";
 import { ArrowDown } from "lucide-react";
-import heroImage from "@/assets/chennai-hero.jpg";
+import heroImage from "@/assets/kapaleeshwar-temple.jpg";
 
 const Hero = () => {
   const scrollToContent = () => {
