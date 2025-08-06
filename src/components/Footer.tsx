@@ -72,8 +72,6 @@ const Footer = () => {
               © 2024 Chennai Heritage. Celebrating the timeless beauty of Chennai.
             </p>
             <div className="flex space-x-6">
-              <a href="#" className="text-primary-foreground/60 hover:text-heritage-gold transition-colors">Privacy</a>
-              <a href="#" className="text-primary-foreground/60 hover:text-heritage-gold transition-colors">Terms</a>
               <a href="https://chennai.nic.in/tourism/" target="_blank" rel="noopener noreferrer" className="text-primary-foreground/60 hover:text-heritage-gold transition-colors">Contact</a>
             </div>
           </div>

@@ -91,6 +91,10 @@ const HistoricOverview = () => {
                     <span className="w-2 h-2 bg-heritage-red rounded-full mt-2 mr-3 flex-shrink-0"></span>
                     Chennai is known as the "Hollywood of South India" for its thriving film industry.
                   </li>
+                  <li className="flex items-start">
+                    <span className="w-2 h-2 bg-primary rounded-full mt-2 mr-3 flex-shrink-0"></span>
+                    Chennai was the first Indian city to be bombed during the World War I in 1914.
+                  </li>
                 </ul>
               </CardContent>
             </Card>
