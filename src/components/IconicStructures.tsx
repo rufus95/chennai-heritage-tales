@@ -14,7 +14,8 @@ const IconicStructures = () => {
       location: "Mylapore",
       description: "A magnificent Dravidian temple dedicated to Lord Shiva, showcasing exquisite South Indian architecture with its towering gopuram and intricate stone carvings.",
       image: kapaleeshwarImage,
-      highlights: ["Dravidian Architecture", "Religious Heritage", "Stone Carvings"]
+      highlights: ["Dravidian Architecture", "Religious Heritage", "Stone Carvings"],
+      link: "https://www.tamilnadutourism.com/chennai/temples/kapaleeshwarar-temple.php"
     },
     {
       id: 2,
@@ -23,7 +24,8 @@ const IconicStructures = () => {
       location: "Fort District",
       description: "The first British fortress in India, now housing a museum with colonial artifacts, weapons, and historical documents from the British era.",
       image: fortImage,
-      highlights: ["Colonial Architecture", "Historical Museum", "British Heritage"]
+      highlights: ["Colonial Architecture", "Historical Museum", "British Heritage"],
+      link: "https://www.tamilnadutourism.com/attractions/forts/stgeorge-fort.php"
     },
     {
       id: 3,
@@ -32,7 +34,8 @@ const IconicStructures = () => {
       location: "Egmore",
       description: "One of India's oldest museums featuring Indo-Saracenic architecture, housing an exceptional collection of art, archaeology, and natural history.",
       image: museumImage,
-      highlights: ["Indo-Saracenic Style", "Art Collection", "Archaeological Treasures"]
+      highlights: ["Indo-Saracenic Style", "Art Collection", "Archaeological Treasures"],
+      link: "https://www.govtmuseumchennai.org/home"
     }
   ];
 
@@ -91,9 +94,11 @@ const IconicStructures = () => {
                   ))}
                 </div>
                 
-                <Button variant="outline" className="w-full group-hover:bg-heritage-blue group-hover:text-primary-foreground group-hover:border-heritage-blue transition-all">
-                  Learn More
-                  <ExternalLink className="w-4 h-4 ml-2" />
+                <Button asChild variant="outline" className="w-full group-hover:bg-heritage-blue group-hover:text-primary-foreground group-hover:border-heritage-blue transition-all">
+                  <a href={structure.link} target="_blank" rel="noopener noreferrer">
+                    Learn More
+                    <ExternalLink className="w-4 h-4 ml-2" />
+                  </a>
                 </Button>
               </CardContent>
             </Card>
