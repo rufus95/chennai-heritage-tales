@@ -2,8 +2,8 @@ import { Card, CardContent } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { ExternalLink, Calendar, MapPin } from "lucide-react";
 import kapaleeshwarImage from "@/assets/kapaleeshwar-temple.jpg";
-import fortImage from "@/assets/fort-st-george.jpg";
-import museumImage from "@/assets/government-museum.jpg";
+import fortImage from "@/assets/fort-st-george-real.jpg";
+import museumImage from "@/assets/government-museum-real.jpg";
 
 const IconicStructures = () => {
   const structures = [
