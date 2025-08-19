@@ -58,7 +58,9 @@ const IconicStructures = () => {
               <div className="relative overflow-hidden">
                 <img 
                   src={structure.image} 
-                  alt={structure.name}
+                  alt={structure.id === 2 ? "Fort St. George colonial architecture with classical columns and Indo-European design" : 
+                       structure.id === 3 ? "Government Museum's red brick Indo-Saracenic architecture with arched entrances and Museum Theatre" : 
+                       structure.name}
                   className="w-full h-64 object-cover group-hover:scale-110 transition-transform duration-500"
                 />
                 <div className="absolute inset-0 bg-gradient-overlay opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
