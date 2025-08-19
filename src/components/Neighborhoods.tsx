@@ -44,12 +44,10 @@ const Neighborhoods = () => {
       subtitle: "Royal Heritage Quarter",
       period: "Medieval Times - Present",
       description: "A historically rich neighborhood that was once home to the Nawabs of Carnatic and features beautiful Indo-Islamic architecture alongside South Indian temples.",
-      history: "Triplicane, meaning 'three ponds' in Tamil, was historically significant as the residence of the Nawabs of Carnatic. The area developed under both Islamic and British influence, creating a unique architectural landscape. It's also famous for being the birthplace of former President Dr. A.P.J. Abdul Kalam.",
+      history: "Triplicane, meaning 'three ponds' in Tamil, was historically significant as the residence of the Nawabs of Carnatic. The area developed under both Islamic and British influence, creating a unique architectural landscape.",
       highlights: [
         "Wallajah Big Mosque - Beautiful Indo-Islamic architecture",
-        "Parthasarathy Temple - Ancient Vaishnavite temple",
-        "Humayun's Tomb - Mughal architectural influence",
-        "Dr. A.P.J. Abdul Kalam's birthplace"
+        "Parthasarathy Temple - Ancient Vaishnavite temple"
       ],
       modernSignificance: "Triplicane today is known for its multicultural harmony, educational institutions, and as a center for Islamic culture in Chennai while maintaining its diverse heritage.",
       icon: Users
